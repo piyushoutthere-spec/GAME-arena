@@ -1,5 +1,5 @@
-let playerO = "O";
-let playerX = "X";
+let playerO = "🔥";
+let playerX = "❄️";
 let currplayer = playerO;
 
 //               0  1  2   3  4  5  6  7 8 
@@ -40,6 +40,12 @@ function placeCell() {
     this.innerText = currplayer;
     gameBoard[index] = currplayer;
     
+    if (currplayer == playerO){
+        this.classList.add("fire");
+    } else {
+        this.classList.add("ice");
+    }
+    
     // change players
     currplayer = (currplayer == playerO) ? playerX : playerO;
 
@@ -71,6 +77,7 @@ function restartGame(){
     gameBoard = ["","","","","","","","",""];
     for (let cell of gameCells) {
         cell.innerText = "";
-        cell.classList.remove("winning-game-cell")
+        cell.classList.remove("winning-game-cell","fire","ice");
     }
+    currplayer = playerO;
 }

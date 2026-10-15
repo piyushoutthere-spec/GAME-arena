@@ -51,3 +51,11 @@ hr{
     font-size: 20px;
     margin-top: 20px;
 }
+
+.fire {
+    color: #ff5722;
+}
+
+.ice {
+    color: #00bfff;
+}
