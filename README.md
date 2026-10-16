@@ -20,7 +20,7 @@ row or column or diagonal, i have put Fire and Ice instead of X and O.
 - Please click the below link to access the Arena.
 ### Executing program
 - Please click the below link
-- 
+- https://piyushoutthere-spec.github.io/GAME-arena/
 
 # Help
 - Please refresh the page once if the game crashes
