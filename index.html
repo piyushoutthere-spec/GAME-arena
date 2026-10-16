@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Arena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="menu">
+        <h1>GAME ARENA</h1>
+        <p>Choose Your Game</p>
+
+        <button onclick="opgame('2048/2048.html')">Play 2048</button>
+        <button onclick="opgame('MAZE/maze.html')">Play Maze</button>
+        <button onclick="opgame('tica/tica.html')">Play Tic-Tac-Toe</button>
+    </div>
+
+    <div id="game">
+        <button id="backbutton" onclick="baTmenu()">Back to Menu</button>
+        <iframe id="gameFrame"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

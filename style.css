@@ -1,0 +1,56 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background: url(mainmenu.png);
+    background-size: cover;
+    color: darkblue;
+    text-align: center;
+}
+
+#menu {
+    padding: 60px 20px;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 60px;
+}
+
+p {
+    font-size: xx-large;
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 15px 30px;
+    background: lightseagreen;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#game{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    inset:0;
+}
+
+#backbutton {
+    margin: 5px;
+    top:5px;
+    left: 5px;
+    position: fixed;
+    z-index:10;
+}
+
+#gameFrame {
+    display:block;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: lightgreen;
+    top:0;
+    left:0;
+}
